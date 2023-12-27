@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.container {
+  color: #ffffff;
+  background-color: #07080c;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.imagecontainer {
+  width: 90%;
+}
+.mainheading {
+  font-size: 30px;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.para1 {
+  font-size: 20px;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.para2 {
+  font-size: 10px;
+  color: #cbd5e1;
+  font-family: 'Roboto';
+}
+.buttoncontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.acceleratebutton {
+  background-color: #0b69ff;
+  border-radius: 2px;
+  color: #ffffff;
+  padding: 2px;
+}
+.brakebutton {
+  background-color: transparent;
+  border-radius: 2px;
+  color: #94a3b8;
+  padding: 2px;
+}
