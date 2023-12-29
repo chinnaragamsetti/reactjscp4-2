@@ -2,14 +2,15 @@
 .container {
   color: #ffffff;
   background-color: #07080c;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.imagecontainer {
-  width: 90%;
+.image {
+  width: 70%;
+  height: 300px;
 }
 .mainheading {
   font-size: 30px;
@@ -26,17 +27,17 @@
   color: #cbd5e1;
   font-family: 'Roboto';
 }
-.buttoncontainer {
+.buttonscontainer {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
 }
 .acceleratebutton {
-  background-color: #0b69ff;
-  border-radius: 2px;
+  background-color: #0b69f;
+  border-radius: 3px;
   color: #ffffff;
   padding: 2px;
+  margin-right: 30px;
 }
 .brakebutton {
   background-color: transparent;
