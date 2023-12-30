@@ -5,25 +5,20 @@ import './index.css'
 
 class Speedometer extends Component {
     state = {speed: 0}
-
-    onAccelerate = () => {
-        this.setState(prevState =>
-            if (prevState.speed<200){
-                {speed:prevState.speed+10}
-                
-            }
-        
+      onAccelerate = () => {
+        const {speed} = this.state
+        if (speed < 200) {
+          this.setState(prevState => ({speed: prevState.speed + 10}))
         }
-    onBrake= () => {
-        this.setState(prevState =>
-            if (prevState.speed>0){
-                {speed:prevState.speed+10}
-                
-            }
-        
+      }
+    
+      onBrake = () => {
+        const {speed} = this.state
+        if (speed > 0) {
+          this.setState(prevState => ({speed: prevState.speed - 10}))
         }
+      }
 
-  
 
     render() {
         const { speed } = this.state
